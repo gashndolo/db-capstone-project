@@ -1,5 +1,3 @@
-CREATE DATABASE  IF NOT EXISTS `littlelemondb` /*!40100 DEFAULT CHARACTER SET utf8mb3 */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `littlelemondb`;
 -- MySQL dump 10.13  Distrib 8.0.46, for Win64 (x86_64)
 --
 -- Host: 127.0.0.1    Database: littlelemondb
@@ -58,7 +56,7 @@ CREATE TABLE `bookings` (
   PRIMARY KEY (`BookingID`),
   KEY `booking_customer_id_idx` (`CustomerID`),
   CONSTRAINT `booking_customer_id` FOREIGN KEY (`CustomerID`) REFERENCES `customers` (`CustomerID`)
-) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb3;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -67,7 +65,7 @@ CREATE TABLE `bookings` (
 
 LOCK TABLES `bookings` WRITE;
 /*!40000 ALTER TABLE `bookings` DISABLE KEYS */;
-INSERT INTO `bookings` VALUES (1,'2025-06-01',3,5),(2,'2025-06-02',7,12),(3,'2025-06-03',1,8),(4,'2025-06-04',10,3),(5,'2025-06-05',5,17),(6,'2025-06-07',2,1),(7,'2025-06-07',8,14),(8,'2025-06-08',4,9),(9,'2025-06-10',6,18),(10,'2025-06-11',9,6),(11,'2025-06-12',3,11),(12,'2025-06-14',7,2);
+INSERT INTO `bookings` VALUES (1,'2022-10-10',5,1),(2,'2022-11-12',3,3),(4,'2022-10-13',2,1),(13,'2025-06-15',6,4);
 /*!40000 ALTER TABLE `bookings` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -325,4 +323,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-05-26  2:20:11
+-- Dump completed on 2026-05-26  4:22:13
