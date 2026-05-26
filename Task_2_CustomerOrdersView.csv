@@ -1,0 +1,13 @@
+CustomerID,FullName,OrderID,TotalCost,MenuName,CourseName
+3,"Brian Kipchoge",1,1850.00,"Mediterranean Classics","Lamb Souvlaki"
+11,"Kevin Gitau",2,1920.00,"Italian Delights","Chicken Marsala"
+7,"Samuel Kamau",3,1780.00,"American BBQ","Pulled Pork Sandwich"
+15,"Clinton Owino",4,1860.00,"Asian Fusion","Pad Thai Noodles"
+1,"James Mwangi",5,1950.00,"Swahili Treasures","Grilled Tilapia"
+9,"Peter Mutua",6,1810.00,"Swahili Treasures","Biryani Chicken"
+18,"Naomi Simiyu",7,1740.00,"Mediterranean Classics","Grilled Sea Bass"
+5,"David Otieno",8,1890.00,"Italian Delights","Spaghetti Carbonara"
+13,"Joseph Ndungu",9,1970.00,"Italian Delights","Margherita Pizza"
+6,"Grace Njoroge",10,1825.00,"Swahili Treasures","Pilau Rice & Beef"
+16,"Esther Kariuki",11,1760.00,"American BBQ","BBQ Beef Ribs"
+2,"Aisha Odhiambo",12,1905.00,"Asian Fusion","Sushi Platter"
